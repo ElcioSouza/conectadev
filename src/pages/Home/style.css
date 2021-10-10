@@ -1,0 +1,36 @@
+.header {
+    background-color:dodgerblue;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+}
+
+.header .box_toolbar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 24px;
+    height:64px
+}
+
+.main {
+    height:100vh;
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main .navbar {
+    width: 100%;
+    max-width: 350px;
+    background: orange;
+    padding:24px
+}
+
+.main .feed{
+  background-color: yellow;
+  width: 100%;
+  padding: 24px;
+}
