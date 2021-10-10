@@ -7,7 +7,7 @@ function Home() {
     <div>
         <Header />
         <main className="main">
-            <div className="navbar">Navbar</div>
+            <div className="navbar">Menu</div>
             <div className="feed">Feed</div>
         </main>
     </div>
